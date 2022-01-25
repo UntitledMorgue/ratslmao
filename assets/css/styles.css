@@ -1,0 +1,38 @@
+h2 {
+    color:rgb(206, 206, 206);
+}
+img {
+    height:500px;
+}
+.sgs {
+    height:300px;
+}
+.header-dark {
+    background-color:var(--dark);
+}
+
+@media only screen and (max-width: 768px) {
+     h3, li, ul, .copyright {
+         font-size:40px!important;
+         position:relative;
+         left:80px;
+     }
+     li {
+         left:20px;
+     }
+     .copyright {
+         left:160px;
+     }
+     h3 {
+         left:160px;
+     }
+     h2, h1, a {
+         font-size:50px!important;
+     }
+     h1 {
+         width:400px;
+     }
+     li {
+         width:500px;
+     }
+  }
